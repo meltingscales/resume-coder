@@ -1,0 +1,41 @@
+Independent Web server/Game server Management:
+  date:
+    start: 2010
+    end: 2013
+  list:
+    - Self-managed a web server that communicated with a game server through databases and PHP.
+    - Managed a game-web server GUI using said databases.
+    - Managed small databases and player requests/server administration.
+    - Wrote HTML, CSS and PHP with MySQL for pages.
+
+Arduino Soil Tester Project:
+  date:
+    start: 2013
+    end: 2014
+  desc: Soil sensor built by simple circuitry and coding in an arduino. Resistance measurements of soil by recording
+  averages of AC current through two electrodes were how the moisture levels in the soil were determined.
+
+Mathematica Compression Project:
+  date: June 2015
+  desc: Over the summer, I enrolled in an IIT Mathematica course where I coded an ASCII compression algorithm that took
+  256 of the most common duplets of characters in an ASCII file and compressed them into a file containing a dictionary
+  followed by compressed data.
+
+Portable Desktop in a Suitcase:
+  date: 2015
+  desc: This is a project that involved building a portable desktop in a suitcase my freshman semester.
+  list:
+    - Three rectangular holes were cut in an aluminum briefcase, one in the lower-left and the other two in the
+    top-middle and top-right.
+    - All components were put on multiple custom-designed laser-cut slabs of plastic and screwed onto various locations
+    on the plastic plates.
+    - The power supply was flipped upside-down and placed in the lower-left section of the case, and bolted there.
+    - The graphics card was rotated 90 degrees to the left and three custom mounting plates were constructed for it.
+    The first two plates sat at the top and bottom of the card, and held it over the motherboard. The third was to fill
+    space so that the screws on the bottom did not press into the card.
+    - The PCIE-16x cable for the graphics card had to be connected to an extension cable, similar to one for a bitcoin
+    mining rig.
+    - A power supply cable for a screen driver for an LCD panel was soldered to the GROUND and 5V leads of a molex
+    connector attached to the power supply, making the power for the screen self-contained.
+    - A USB header → USB port → wifi dongle supplies wireless, and there is a free-hanging SSD for boot and other
+    files.

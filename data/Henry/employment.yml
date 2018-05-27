@@ -1,0 +1,57 @@
+TechCrew:
+  title: Junior Technician
+  organization: Northside College Preparatory High School
+  date:
+    start: September 2012
+    end: June 2013
+  list:
+    - Repaired student-owned computers and offered technical assistance of any kind/to the best of my and my peers'
+    abilities.
+    - Worked with other students encountering hardware/software problems, such as broken hardware or questions about
+    specific programs.
+    - Set up computers by manually configuring them or mass-imaging ISOs onto them.
+    - Replaced computer parts of the computers of students and faculty.
+    - Did minor data recovery.
+
+Dirt Actualizers:
+  title: Field Hand
+  organization: Northside College Preparatory High School
+  date:
+    start: 2013
+    end: 2015
+  list:
+    - Transported shrubbery, dirt, concrete and gravel by shovel or wheelbarrow.
+    - Weeded, planted, dug holes, and picked crops.
+    - Worked with classmates to measure and level concrete filling for pathways.
+    - Constructed a prototype soil moisture detector as a side project.
+
+uBreakiFix:
+  title: Technician
+  organization: uBreakiFix
+  date:
+    start: May 2016
+    end: July 2016
+  list:
+    - Intake of damaged devices, handling workorder flow/time management, diagnosing smartphones/laptops, disassembly,
+    repair, and reassembly of smartphones/laptops.
+    - Malware removal, software installation and configuration.
+    - Working with small electronics and laptops in-depth, part lookups by product ID numbers, troubleshooting.
+
+Academic Resource Center:
+  title: Tutor
+  organization: Illinois Institute of Technology
+  date:
+    start: February 2017
+  list:
+    - "Tutored the following:"
+    - C, C++, Java, Python, light digital circuitry (mux, demux, adders, LED grids, selectors)
+    - "CS350: Computer Organization and Assembly Programming, was done in C and LC-3 assembly"
+    - "CS330: Algorithms, was done in Python"
+    - "CS201: Accelerated Introduction to Computer Science, was done in Java."
+
+Exclude me:
+  title: exclude_title
+  organization: exclude_org
+  list:
+  - You better ignore me.
+  - kthxbai
