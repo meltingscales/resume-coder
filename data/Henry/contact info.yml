@@ -1,14 +1,11 @@
 name: Henry Post
 
 phone:
-  cell:
-    - 773-554-4790
+  cell: 773-554-4790
 
 email:
-  home:
-    - HenryFBP@gmail.com
-  school:
-    - hpost@hawk.iit.edu
+  home: HenryFBP@gmail.com
+  school: hpost@hawk.iit.edu
 
 address:
   home:
