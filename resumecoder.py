@@ -1,8 +1,12 @@
 import os
 import yaml
+from docx.text.paragraph import Paragraph
+from docx.text.run import Run
 
 from hax import add_hyperlink
 from docx import Document
+from docx.enum.style import WD_STYLE_TYPE
+from docx.shared import Pt
 
 
 def islist(thing):
@@ -68,13 +72,10 @@ class ResumeCoder:
             p = doc.add_paragraph('')
 
             for key, value in address.items():
-                print(key, value)
-
                 p.add_run(value['street'] + ", ")
                 p.add_run(value['city'] + ", ")
                 p.add_run(value['state'] + ", ")
                 p.add_run(str(value['zip']))
-
                 p.add_run(f' ({key})')
 
         def phone(phone, doc):
@@ -102,8 +103,27 @@ class ResumeCoder:
         if 'phone' in data:
             phone(data['phone'], self.document)
 
+    def education(self, path: str):
+        path = os.path.join(self.path, path)
+        data = yml_to_dict(path)
+
+        for name, d in data.items():
+            p: Paragraph = self.document.add_paragraph()
+
+            r: Run = p.add_run()
+            r.bold = True
+            r.add_text(name)
+
+            if 'location' in d:
+                p.add_run(', ' + d['location'])
+
+            for item in d['list']:
+                p = self.document.add_paragraph(style='List Bullet')
+                p.add_run(item)
+
 
 if __name__ == '__main__':
     rc = ResumeCoder('./data/Henry/')
     rc.contact_info('contact info.yml')
+    rc.education('education.yml')
     rc.write()
